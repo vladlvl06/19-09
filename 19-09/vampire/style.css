@@ -1,0 +1,101 @@
+body {
+    height: 100vh;
+    background-color: rgb(44, 44, 44);
+}
+
+.moon {
+    margin-left: 1000px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 90, 90);
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px #ff7d7d;
+}
+
+.vampire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.hair {
+    width: 150px;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.face {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.eyes {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.eye {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.pupil {
+    width: 8px;
+    height: 8px;
+    background-color: crimson;
+    border-radius: 50%;
+}
+
+.mouth {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.fang {
+    width: 10px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 0 0 5px 5px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 120px;
+    height: 180px;
+    border-radius: 0 0 60px 60px;
+}
+
+.cloak {
+    width: 180px;
+    height: 80px;
+    background-color: rgb(161, 1, 1);
+    border-radius: 0 0 90px 90px;
+    margin-top: -40px;
+}
+
+
